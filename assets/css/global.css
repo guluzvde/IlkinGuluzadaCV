@@ -1,0 +1,15 @@
+:root{
+    font-size: 10px;
+    font-family: 'esas';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
