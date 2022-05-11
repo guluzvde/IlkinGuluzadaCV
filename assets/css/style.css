@@ -8,7 +8,7 @@
 #navbar>ul>li>a{
     color: #FDE2AB;
     padding: 2rem;
-    border-radius: 2rem;
+    /* transition-property: background-color; */
     transition-duration: 0.3s;
 }
 #navbar>ul{
@@ -19,43 +19,8 @@
     background-color: #207A7E;
     border-radius: 3rem;
     transition-property: background-color;
+    /* transition-duration: 0.5s; */
 }
 #navbar>ul>li>a:active{
     color: #DF936D;
-}
-#navbar>h1{
-    font-family: 'ikincil';
-    letter-spacing: 0.125rem;
-}
-#home{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    /* background-image: url(../img/bg1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-}
-#home>img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 100%;
-}
-.name{
-    padding: 2rem;
-
-}
-.name>p{
-    font-style: italic;
-    opacity: 0.6;
-    font-size: 1.25rem;
-
-}
-.name>h2{
-    margin-bottom: 0.5rem;
-    font-size: 3rem;
-    font-family: 'ikincil';
-    letter-spacing: 0.125rem;
 }
