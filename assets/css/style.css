@@ -37,10 +37,6 @@ header.bg-dark {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  /* background-image: url(../img/bg1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 #home > img {
   max-width: 100%;
@@ -52,9 +48,8 @@ header.bg-dark {
 }
 .name > p {
   font-style: italic;
-  opacity: 0.6;
   font-size: 1.25rem;
-  color: #207a7e;
+  color: #338d91;
 }
 .name > h2 {
   color: #083434;
@@ -91,7 +86,7 @@ header.bg-dark {
   padding: 3rem;
   color: #083434;
 }
-#skills > .icons_skills > .html > img {
+#skills > .icons_skills > .icon > img {
   width: 10rem;
   height: 10rem;
 }
@@ -101,7 +96,7 @@ header.bg-dark {
   flex-wrap: wrap;
   justify-content: center;
 }
-#skills > .icons_skills > .html {
+#skills > .icons_skills > .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
