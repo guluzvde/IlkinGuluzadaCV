@@ -59,3 +59,29 @@
     font-family: 'ikincil';
     letter-spacing: 0.125rem;
 }
+#about{
+
+    color: white;
+    padding: 3rem;
+}
+#about>.melumat{
+
+    display: flex;
+    justify-content: space-evenly;
+   /*  align-items: center; */
+}
+#about>.melumat>.item{
+   width: 33%; 
+   text-align: center;
+   padding: 0.5rem;
+}
+#about>.melumat>.item>h3{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#about>.melumat>.item>i{
+    margin-top: 2rem;
+    font-size: 3rem;
+    
+}
