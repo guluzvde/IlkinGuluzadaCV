@@ -1,39 +1,42 @@
-
-#navbar{
-    flex-direction: column;
-    padding-top: 1rem ;
-    padding-bottom: 1rem;
-    overflow: hidden;
-    height: 80px;
+#navbar {
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  overflow: hidden;
+  height: 80px;
 }
 
-#navbar>ul>li>a{
-
-    padding: 1rem;
-
+#navbar > ul > li > a {
+  padding: 1rem;
 }
 
-.name>h2{
-
-    font-size: 2.5rem;
-
+.name > h2 {
+  font-size: 2.5rem;
 }
-#home>a{
-    text-align: center;
-    width: 100%;
+#home > a {
+  text-align: center;
+  width: 100%;
 }
 
-#about>.melumat{
-    flex-direction: column;
- }
- #about>.melumat>.item{
-    width: 100%; 
-    text-align: center;
-    padding: 0.5rem;
- }
- #skills > .icons_skills {
+#about > .melumat {
+  flex-direction: column;
+}
+#about > .melumat > .item {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+}
+#skills > .icons_skills {
+  gap: 5rem;
+}
+#contact > .container > .social-container {
+  flex-direction: column;
+}
 
-    gap: 5rem;
 
+#contact > .container > .social-container > .social {
+  padding-top: 3rem;
+  color: #fde2ab;
+  font-size: 3rem;
 
-  }
+}

@@ -65,7 +65,6 @@ header.bg-dark {
 #about > .melumat {
   display: flex;
   justify-content: space-evenly;
-  /*  align-items: center; */
 }
 #about > .melumat > .item {
   width: 33%;
