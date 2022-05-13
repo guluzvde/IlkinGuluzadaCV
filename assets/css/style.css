@@ -105,3 +105,57 @@ header.bg-dark {
   flex-direction: column;
   align-items: center;
 }
+#contact{
+  margin-top: 5rem;
+}
+#contact>.container>.social-container{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+padding: 2rem;
+}
+#contact>.container>.social-container>.contact>p{
+  color: #fde2ab;
+  font-size: 1.5rem;
+}
+#contact>.container>.social-container>.social>a{
+  color: #fde2ab;
+  font-size: 3rem;
+  /* margin: 2rem; */
+}
+#contact>.container>h3{
+  padding-top: 2rem;
+}
+#contact>.container{
+padding-bottom: 3rem;
+}
+#contact>.container>h2{
+text-align: center;
+color: white;
+font-size: 1.25rem;
+}
+#contact>.container>h2>a{
+text-align: center;
+color: #fde2ab;
+text-decoration: underline;
+margin-bottom: 2rem;
+}
+.duyme-contact {
+  border-radius: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.5rem;
+  border: 1px solid #083434;
+  /* background-color: #093434; */
+  color: #fde2ab;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+}
+.duyme-contact:hover{
+    color: #083434;
+    background-color: #207a7e;
+    border: 1px solid #083434;
+}
+.duyme-contact:active{
+
+    box-shadow: 0.5rem 0.5rem 1rem rgb(32, 32, 31);
+}
