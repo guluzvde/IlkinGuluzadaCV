@@ -95,7 +95,7 @@ header.bg-dark {
 
 #skills > .icons_skills {
   display: flex;
-  gap: 15rem;
+  gap: 7rem;
   flex-wrap: wrap;
   justify-content: center;
 }
